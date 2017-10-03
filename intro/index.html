@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Javascript test</title>
+        <style>
+            .container{
+                width: 900px;
+                margin: 10px auto;
+                font-size: 2rem;
+                color: #34a322;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <h3>Just a test</h3>
+            <div id="text"></div>
+        </div>    
+    </body>
+    <script>
+            (function print() {
+                var string = "<p>Javascript text</p>";
+                document.getElementById('text').innerHTML = string;
+                console.log("JS file laoded");
+            })();
+        </script>
+</html>
