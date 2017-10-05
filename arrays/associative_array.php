@@ -11,3 +11,7 @@ $authors = array(
 
 print_r($authors);
 echo $authors['poetic'];
+
+foreach($authors as $key => $value) {
+    echo $value, $key;
+}
