@@ -2,7 +2,7 @@
 
 //Functions
 
-echo "\n=============\nSwitch function\n=============\n";
+echo "\n=============\nSwitch statement\n=============\n";
 
 function daysPerMonth($month) {
     switch ($month) {

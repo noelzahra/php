@@ -8,8 +8,14 @@
  * @return type
  */
 
- echo "=============================\nFunction with array map\n=============================\n";
- function multiplyByN($n) {
+$title = <<<DOC
+    "======================
+    Function with array map
+    ======================";
+DOC;
+
+echo $title;
+function multiplyByN($n) {
 //PHP closure
 //Using lambda within the scope of the named func
     return function($num) use($n) {
