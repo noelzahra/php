@@ -2,15 +2,14 @@
 
 //Calculate average function
 
-function averageVar($first,  ...$params) {
-    $sum = $first;
+function averageVar(...$params) {
+    $sum = 0;
 
     foreach($params as $number) {
         $sum += $number;
     }
 
-    return $sum / (count($params) + 1);
+    return $sum / (count($params));
 }
 
 echo averageVar(2, 8, 3, 4, 5, 6, 7);
-
