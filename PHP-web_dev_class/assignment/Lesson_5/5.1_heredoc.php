@@ -8,7 +8,7 @@ $output = <<<DATE
             <title>$today</title>
         </head>
         <body>
-            <h1>Today's date is $today</h1>
+           <h1 style="font:52px 'Arial', sans-serif; text-align: center;">Today's date is $today</h1>
         </body>
     </html>
 DATE;
