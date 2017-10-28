@@ -14,5 +14,3 @@ function multiply($array)
 }
 
 multiply($numbers);
-
-

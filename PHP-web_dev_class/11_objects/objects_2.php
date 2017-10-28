@@ -52,4 +52,4 @@ echo $emp3->getAvailableLeave();
 echo '<br><br>';
 echo 'Class static: ' . Employee::$numberOfEmployees;
 echo '<br><br>';
-echo 'Object: ' . $emp3::$numberOfEmployees;
+echo 'Object: ' . $emp2::$numberOfEmployees;

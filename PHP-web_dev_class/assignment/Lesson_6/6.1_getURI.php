@@ -7,4 +7,8 @@ function findId($url) {
     return $id;    
 }
 
+/**
+ * for some reason this function gets the value
+ * listed twice in var_dump array
+*/
 var_dump(findId($url));

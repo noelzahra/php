@@ -2,13 +2,13 @@
 
 //Attempt to use array_walk was not succesful
 
-$pages = ['lessons', 'classroom', 'teaching'];
+$pages = ['teaching', 'classroom', 'lessons'];
 
-$str ='teaching';
+$str = 'teaching';
 
 function validURI($array, $str){
     similar_text($array, $str, $percent);
     echo round($percent, 0);
 };
 
-array_walk($pages, 'validURI');
+var_dump(array_walk($pages, 'validURI'));
