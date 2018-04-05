@@ -38,7 +38,7 @@ class ShopProduct
 
     public function getTitle()
     {
-        return $this->title;
+        return $this->generateID() . ': ' . $this->title;
     }
 
 }
@@ -46,4 +46,3 @@ class ShopProduct
 $product = new ShopProduct("Ibis Mojo", 4554.5);
 echo $product->getTitle() . "\n";
 echo $product->calculateTax(4554.5) . "\n";
-echo $product->generateID();
